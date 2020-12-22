@@ -2,8 +2,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Eel</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script>
+        function myFunction() {
+            eel.hello_eel()((msg) => {
+                document.getElementById("demo").innerHTML = msg;
+            });
+        }
+
+    </script>
 </head>
 <body>
-    Eello World!!
-</body>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="demo"></p>
+    
+    </body>
 </html>
