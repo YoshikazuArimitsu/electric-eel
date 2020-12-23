@@ -1,2 +1,6 @@
+build/
+dist/
 poetry.lock
-venv/
+.python-version
+main.spec
+.venv/
