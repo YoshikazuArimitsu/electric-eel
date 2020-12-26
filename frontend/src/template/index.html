@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+        const bak_require = require
+        require = undefined
+        </script>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript">
+        require = bak_require
+        </script>
+            
+    </head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
