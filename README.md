@@ -2,6 +2,7 @@
 
 ```
 $ cd electric_eel
-$ python -m eel ./electric_eel/main.py frontend --onefile
+$ (cd ./frontend && yarn compile)
+$ python -m eel ./electric_eel/main.py frontend/dist/ --onefile
 ```
 

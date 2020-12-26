@@ -9,5 +9,5 @@ def hello_eel():
 
 eel.init("frontend")
 
-eel.browsers.set_path('electron', 'frontend/node_modules/electron/dist/electron')
-eel.start('main.html', mode="electron", cmdline_args=["frontend/main.js"])
+eel.browsers.set_path('electron', 'frontend/dist/electron/electron')
+eel.start('main.html', mode="electron", cmdline_args=["frontend/dist/main/main.js"])
